@@ -1,0 +1,39 @@
+{
+  "name": "@react-chrono-ts/ui",
+  "version": "0.0.1",
+  "description": "React Chrono TS Core UI Library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "clean": "rm -rf dist"
+  },
+  "author": "DMaximoVarela",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.7",
+    "eslint": "^9.18.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.14.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
