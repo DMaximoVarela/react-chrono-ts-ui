@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DMaximoVarela/react-chrono-ts-ui.git"
+    "url": "https://github.com/react-chrono-ts/react-chrono-ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/DMaximoVarela"
+    "registry": "https://npm.pkg.github.com/react-chrono-ts"
   },
   "scripts": {
     "dev": "rollup -c --watch",
