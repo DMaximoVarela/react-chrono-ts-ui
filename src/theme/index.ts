@@ -1,1 +1,1 @@
-export { theme } from "./theme";
+export { react_chrono_ts_theme } from "./theme";

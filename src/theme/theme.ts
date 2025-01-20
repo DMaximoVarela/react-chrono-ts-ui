@@ -1,8 +1,12 @@
-import { createTheme } from "@mui/material";
 import { breakpoints } from "./breakpoints";
 import { palette } from "./palette";
 
-export const theme = createTheme({
+type mode = "light" | "dark";
+
+export const react_chrono_ts_theme = (mode: mode) => ({
   ...breakpoints,
-  ...palette,
+  palette: {
+    mode,
+    ...(mode === "light" ? palette.light.palette : palette.dark.palette),
+  },
 });
