@@ -20,6 +20,10 @@ export default [
         sourcemap: true,
       },
     ],
+    external: [
+      ...Object.keys(packageJson.peerDependencies || {}),
+      ...Object.keys(packageJson.dependencies || {}),
+    ],
     plugins: [
       typescript({
         tsconfig: "./tsconfig.json",
