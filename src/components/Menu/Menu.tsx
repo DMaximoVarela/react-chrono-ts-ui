@@ -1,7 +1,7 @@
 import React from "react";
 import { Drawer, Grid2, List, Typography, useMediaQuery } from "@mui/material";
-import MenuItem from "./components/MenuItem/MenuItem";
-import MenuMobile from "./components/MenuMobile/MenuMobile";
+import MenuItem from "./components/MenuItem";
+import MenuMobile from "./components/MenuMobile";
 import { MenuProps } from "./types";
 import { useLocation } from "wouter";
 
